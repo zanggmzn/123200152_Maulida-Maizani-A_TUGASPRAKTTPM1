@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               padding: const EdgeInsets.fromLTRB(20, 15, 20, 0),
               child: TextField(
+                obscureText: true, 
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(90.0),
